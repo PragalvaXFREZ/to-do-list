@@ -1,0 +1,78 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1
+{
+  font-size: 40px;
+  font-weight: bold;
+}
+.create_form input {
+  width: 300px;
+  padding: 10px;
+  border-bottom: 2px solid;
+  outline: none;
+}
+
+.create_form button {
+  padding: 10px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.task {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 345px;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  padding: 10px; /* Add more padding for better spacing */
+  margin-top: 2px;
+}
+
+.checkbox .icon {
+  margin-right: 7px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.line_throuhgh {
+  text-decoration: line-through;
+}
+
+.task div {
+  display: flex;
+  align-items: center;
+}
+
+.task div span {
+  margin: 0px 10px; /* Adjust margin for better spacing */
+}
+
+.task div .icon {
+  font-size: 18px; /* Resize the icon if necessary */
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar ul {
+  display: flex;
+  list-style-type: none;
+  
+ 
+}
+
+.navbar ul li {
+  margin-right: 10px;
+  font-size: 23px;
+  
+}
